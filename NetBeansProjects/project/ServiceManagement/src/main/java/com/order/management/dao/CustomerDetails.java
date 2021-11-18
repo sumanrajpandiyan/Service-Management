@@ -34,7 +34,7 @@ public class CustomerDetails implements Serializable {
      private String address;
      
      private long phoneNumber;
-     private long phoneNumber5;
+     
    
     public int getCustomerId() {
         return customerId;

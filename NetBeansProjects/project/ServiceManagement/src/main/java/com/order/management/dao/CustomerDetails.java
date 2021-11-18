@@ -30,7 +30,6 @@ public class CustomerDetails implements Serializable {
     
      
      private long phoneNumber;
-     private long phoneNumber2;
    
      
    

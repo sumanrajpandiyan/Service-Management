@@ -22,6 +22,7 @@ public class CustomerDetails implements Serializable {
 
      @Id
      @GeneratedValue(strategy = GenerationType.AUTO)
+     
      private int customerId;
      
      private String name;

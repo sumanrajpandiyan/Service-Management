@@ -15,17 +15,19 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class CustomerAPI {
-  @Autowired
-  CustomRepository repository; 
+  
+@Autowired
+CustomRepository repository; 
  
    public String addCustomer(CustomerDetails customer){
       
        if(!isvalidCustomer(customer))
         return "Please Enter Validate Customer Details";
+        
          
        repository.save(customer);
          return "Success full Create customer";
-
+         
      }
    
 
